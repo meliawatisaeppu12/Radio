@@ -1,0 +1,222 @@
+.body {
+    font-family: 'Segoe UI', sans-serif;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+.html {
+    scroll-behavior: smooth;
+}
+
+/*------------------
+Header section
+ ---------------------*/
+
+.header-section {
+    position: absolute;
+    width: 100%;
+    padding-left: 55px;
+    padding-right: 72px;
+    margin-right: 0px;
+    /*background: #08192d;*/
+    /*background: rgba(0,150,0,0.2);*/
+    /*opacity: 0.5;*/
+}
+
+.site-logo {
+    display: inline-block;
+    padding: 0;
+    padding: 39px 15px;
+    font-size: x-large;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.header-right {
+    float: right;
+    padding: 44px 0;
+    margin-left: 130px;
+}
+
+.header-right .hr-btn {
+    display: inline-block;
+    color: #979aa5;
+}
+
+.header-right .user-panel {
+    display: inline-block;
+}
+
+
+.hero {
+    background-size: cover;
+    transition: background-image 1s ease-in-out;
+    height: 100vh;
+    color: white;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    background-position: center;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.6);
+}
+
+.hero p {
+    font-size: 1.3rem;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.4);
+}
+
+.section {
+    padding: 60px 0;
+}
+
+.bg-section1 {
+    background-color: #e3f2fd;
+    /* biru muda */
+}
+
+.bg-section2 {
+    background-color: #5461ec;
+    /* kuning lembut */
+}
+
+.bg-section3 {
+    background-color: #f0ed5f;
+    /* hijau sangat muda */
+}
+
+.section-title {
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.schedule-item {
+    border-left: 4px solid #0d6efd;
+    padding-left: 15px;
+    margin-bottom: 15px;
+}
+
+.img {
+    max-width: 100%;
+}
+
+/*-----------
+Section WA
+-------------*/
+
+.wa-floating-button {
+    position: fixed;
+    top: 50%; /* Posisi dari tengah vertikal halaman */
+    right: 0px; /* Jarak dari pinggir kanan halaman */
+    transform: translateY(-50%); /* Untuk memastikan posisi tepat di tengah vertikal */
+    background-color: #25D366; /* Warna hijau khas WhatsApp */
+    color: white;
+    width: 50px;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+    cursor: pointer;
+    text-decoration: none;
+
+    border-radius: 10px 0 0 10px;
+
+}
+
+.wa-floating-button:hover {
+    background-color: #20b557;
+}
+
+.wa-floating-button img {
+    width: 40px;
+    height: 40px;
+}
+
+/* ----------------
+Intro section
+-------------------*/
+
+.intro-section p {
+    margin-bottom: 105px;
+    padding-top: 105px;
+}
+
+/*------------------
+Hero section
+ ---------------------*/
+
+.hero-section {
+    overflow: hidden;
+    height: 100%;
+}
+
+.hs-item {
+    height: 100%;
+    padding-bottom: 90px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background: #0a183d;
+}
+
+.hr-img img {
+    min-width: 602px;
+    position: relative;
+    left: -34px;
+    top: 50px;
+    opacity: 0;
+}
+
+.spad {
+    padding-top: 105px;
+    padding-bottom: 105px;
+    background-color: #ffffff;
+}
+
+
+.player_button {
+    position: relative;
+    width: 28px;
+    height: 28px;
+    background: #d0d7db;
+    border: none;
+    border-radius: 50%;
+    outline: none !important;
+    cursor: pointer;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 auto;
+    flex: 0 0 auto;
+}
+
+/* ----------------
+Playlist page
+ -------------------*/
+
+.playlist-section {
+    padding: 105px 42px;
+}
+
+.fotoalbum {
+
+    top: 50%;
+    left: 0;
+    color: white;
+    padding: 20px;
+
+}
+
+
+
+
+
+
+        
